@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+}
+.containers{
+    width: 68% !important;
+}
+.exxen-spor {
+    font-size: 1.2rem;
+    background-color: black;
+    border: none;
+    padding: 10px 30px;
+}
+.uye-giris {
+    font-size: 1.2rem;
+    border: 1px solid black;
+    padding: 10px 30px;
+}
+.dropdown {
+    font-size: 1.2rem;
+    
+}
+/* Üye ol */
+.uye-ol{
+    background-color: rgb(22, 22, 22);
+}
+.kayit {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.kayit input {
+    width: 90%;
+    padding: 10px 20px;
+}
+
+.kayit button {
+    width: 90%;
+    padding: 10px 20px;
+}
+.kayit input:focus{
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: yellow;
+}
+/* Filmler */
+.card {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.ekranlar {
+    width: 90%;
+    margin: auto;
+}
+.resimler {
+    width: 100%;
+    justify-content: center;
+}
+.resimler img {
+    width: 163px;
+    height: 43px;
+    margin: 5px;
+}
+.fab {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    margin: 5px;
+    margin-top: 30px;
+    padding: 3px;
+}
+/* Sayfa sonu */
+.son{
+    background-color: rgb(22, 22, 22);
+    padding: 10px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgb(66, 65, 65);
+}
+::-webkit-scrollbar-thumb {
+    background: black;
+    border: 1px solid rgb(75, 72, 72);
+    
+}
+::-webkit-scrollbar-track-piece{
+    border: 2px solid rgb(29, 28, 28);
+}
